@@ -39,17 +39,34 @@ body {
   margin: 1rem;
 }
 
-ol{
-    list-style: none;
-    margin: 1rem 0;
+ul{
+    list-style:none;
 }
 
+.nested{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
 
+.nested-2{
+    padding-left: 1rem;
+}
 
+.lista-global{
+    margin: 1rem 0;
+}
 
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.left-col{
+    display: flex;
+    flex-direction: column;
+    height: 96.5vh;
+    
+    justify-content: space-between;
 }
 
 a {
@@ -72,7 +89,7 @@ a:hover {
 }
 
 img{
-    max-height: 80vh;
+    max-height: 90vh;
     object-fit: cover;
     margin-bottom: 1rem;
 }
